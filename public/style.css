@@ -20,6 +20,11 @@ input {
   background-color: #ccc;
 }
 
+body {
+  padding-top: 2em;
+  margin: auto;
+}
+
 .user-stories li {
   margin-bottom: 1em;
 }
