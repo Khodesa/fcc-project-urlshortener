@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 const mongoose = require("mongoose");
 const shortid = require("shortid");
-const nanoid = require("nanoid");
+const nanoid = import("nanoid");
 
 // Basic Configuration
 const port = process.env.PORT || 3000;
